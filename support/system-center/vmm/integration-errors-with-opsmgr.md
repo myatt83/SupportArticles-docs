@@ -16,7 +16,7 @@ _Original KB number:_ &nbsp; 2668088
 > Unable to set the Operations Manager root server in VMM because the Operations Manager is not installed on the Virtual Machine Manager management server.
 >
 > Recommended action:  
-> Install the Operations Console for System Center Operations Manger 2007 on the Virtual Machine manager server and then try the operation again.
+> Install the Operations Console for System Center Operations Manager 2007 on the Virtual Machine manager server and then try the operation again.
 
 This error message can be misleading as it also applies to Operations Manager 2012 even though it only specifically mentions Operations Manager 2007. The console required has to match the version you are using on the Operations Manager server, so if you are integrating with Operations Manager 2012 you need to install the Operations Manager 2012 console on the VMM 2012 server.
 
@@ -31,7 +31,7 @@ You will need to add either one of these to the Operations Manager built-in admi
 
 ## Error 10218
 
-> Setup could not import the System Center Virtual Machine Manager Management pack into Operations Manger server because one or more required management packs are missing. The VMM management pack cannot be deployed unless the following components management packs are present in Operations Manager 2007...
+> Setup could not import the System Center Virtual Machine Manager Management pack into Operations Manager server because one or more required management packs are missing. The VMM management pack cannot be deployed unless the following components management packs are present in Operations Manager 2007...
 >
 > Recommended action:  
 > To provide the missing component management packs, ensure that the following management packs cannot be deployed unless the following component management packs are present in operations manager 2007:...
